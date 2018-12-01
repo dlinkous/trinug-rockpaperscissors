@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>
+            Serverless Amazon
+        </title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>
+                        Rock Paper Scissors
+                    </h1>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <h5>
+                        Begin Game:
+                    </h5>
+                    <button type="button" id="beginRock" class="btn btn-lg btn-primary btn-block">Rock</button>
+                    <button type="button" id="beginPaper" class="btn btn-lg btn-primary btn-block">Paper</button>
+                    <button type="button" id="beginScissors" class="btn btn-lg btn-primary btn-block">Scissors</button>
+                    <div id="beginIdentifier" class="alert alert-success mt-2">
+                        Identifier: XXXXXXXX
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <h5>
+                        Finish Game:
+                    </h5>
+                    <input type="text" id="finishIdentifier" class="form-control mb-2" placeholder="Identifier">
+                    <button type="button" id="finishRock" class="btn btn-lg btn-primary btn-block">Rock</button>
+                    <button type="button" id="finishPaper" class="btn btn-lg btn-primary btn-block">Paper</button>
+                    <button type="button" id="finishScissors" class="btn btn-lg btn-primary btn-block">Scissors</button>
+                    <div id="finishOutcome" class="alert alert-success mt-2">
+                        Outcome: XXXXXXXX
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <h5>
+                        Check Game:
+                    </h5>
+                    <input type="text" id="checkIdentifier" class="form-control mb-2" placeholder="Identifier">
+                    <button type="button" id="checkGame" class="btn btn-lg btn-primary btn-block">Check</button>
+                    <div id="checkOutcome" class="alert alert-success mt-2">
+                        Outcome: XXXXXXXX
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/rockpaperscissors.js"></script>
+    </body>
+</html>
